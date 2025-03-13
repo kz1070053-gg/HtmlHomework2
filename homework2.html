@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!--<meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行程表單</title>
+    <style>
+        fieldset {
+            border: 1px dashed #000;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>個人資料</legend>
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" value="鄭崑成"><br><br>
+            <label for="address">地址：</label>
+            <input type="text" id="address" name="address">
+        </fieldset>
+
+        <fieldset>
+            <legend>行程相關</legend>
+            <p>可參加行程日期：（可複選）</p>
+            <input type="checkbox" id="mid-exam" name="schedule" value="mid-exam">
+            <label for="mid-exam">期中考後</label>
+            <input type="checkbox" id="final-exam" name="schedule" value="final-exam">
+            <label for="final-exam">期末考後</label>
+            <input type="checkbox" id="vacation" name="schedule" value="vacation">
+            <label for="vacation">暑假期間</label>
+
+            <p>喜歡的地點是：（單選）</p>
+            <input type="radio" id="kenting" name="location" value="kenting">
+            <label for="kenting">墾丁</label>
+            <input type="radio" id="sun-moon-lake" name="location" value="sun-moon-lake">
+            <label for="sun-moon-lake">日月潭</label>
+            <input type="radio" id="green-island" name="location" value="green-island">
+            <label for="green-island">綠島</label>
+            <input type="radio" id="alishan" name="location" value="alishan">
+            <label for="alishan">阿里山</label>
+            <input type="radio" id="taipei101" name="location" value="taipei101">
+            <label for="taipei101">台北101</label>
+            <input type="radio" id="penghu" name="location" value="penghu">
+            <label for="taipei101">澎湖</label>
+
+            <p>其它需求或建議可以寫在此：</p>
+            <textarea name="other-requirements"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>其他行程建議</legend>
+            <textarea name="other-suggestions"></textarea>
+        </fieldset>
+
+        <button type="submit">提交</button>
+        <button type="reset">重設</button>
+    </form>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpIUoyyjtt-R3o4lOLPawidubKW04mOqWWQKlqJYJWhpK8dw/viewform?embedded=true" width="640" height="951" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+    <div style="position: relative; width: 100%; height: 0; padding-top: 56.5217%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGhnj1c6GY/vSa6JtzFZ8cDbA_3CCnPNw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  </iframe></div><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGhnj1c6GY&#x2F;vSa6JtzFZ8cDbA_3CCnPNw&#x2F;view?utm_content=DAGhnj1c6GY&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">設計者</a>：鄭崑成
+   
+    
+</body>
+</html>
